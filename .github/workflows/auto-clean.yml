@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-         python popup/github_key_manager.py clean \
+          python popup/github_key_manager.py clean \
             --owner npqz \
             --repo popup \
             --token $GITHUB_TOKEN \
